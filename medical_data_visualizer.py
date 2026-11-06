@@ -72,7 +72,7 @@ def draw_heat_map():
     fig, ax = plt.subplots()
 
     # 15
-    sns.heatmap(
+    fig = sns.heatmap(
         corr,
         annot=True,
         fmt='.1f',
